@@ -203,7 +203,8 @@ class StackTraceView( object ):
   def OnThreadEvent( self, event ):
     if event[ 'reason' ] == 'started' and self._currentThread is None:
       self._currentThread = event[ 'threadId' ]
-      self.LoadThreads( True )
+
+    self.LoadThreads( True )
 
   def Continue( self ):
     if self._currentThread is None:
