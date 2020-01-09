@@ -109,6 +109,7 @@ GADGETS = {
   },
   'vscode-java-debug': {
     'language': 'java',
+    'enabled': False,
     'download': {
       'url': 'https://github.com/microsoft/vscode-java-debug/releases/download/'
              '${version}/${file_name}',
