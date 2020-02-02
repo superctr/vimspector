@@ -1,0 +1,27 @@
+{
+  "adapters": {
+    "dart-code": {
+      "variables": {
+        "root": "/Users/ben/Development/vimspector/Dart-Code"
+      },
+      "type": "dart",
+      "command": [
+        "node",
+        "${root}/out/src/debug/dart_debug_entry.js"
+      ],
+      "configuration": {
+        "console": "terminal"
+      }
+    }
+  },
+  "configurations": {
+    "Launch": {
+      "adapter": "dart-code",
+      "configuration": {
+        "request": "launch",
+        "type": "dart",
+        "program": "${file}"
+      }
+    }
+  }
+}
