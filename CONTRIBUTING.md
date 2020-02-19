@@ -8,8 +8,6 @@ forms, such as:
 * Discussing in the Gitter channel
 * etc.
 
-At all times the [code of conduct](#code-of-conduct) applies.
-
 ## Issues
 
 The GitHub issue tracker is for *bug reports* and *features requests* for the
@@ -91,10 +89,6 @@ To run them:
 They're also run by CI, so please check for lint failures. The canonical
 definition of the command to run is the command run in CI, i.e. in
 `azure-pipelines.yml`.
-
-# Code of conduct
-
-Please see [code of conduct](CODE_OF_CONDUCT.md).
 
 [vint]: https://github.com/Vimjas/vint
 [flake8]: https://flake8.pycqa.org/en/latest/
